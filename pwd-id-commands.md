@@ -1,4 +1,4 @@
-# Log: pwd, pwd -L, pwd -P, ln -s, id, id -u, id -g
+# Log: pwd, pwd -L, pwd -P, id, id -u, id -g
 
 ## pwd
 
