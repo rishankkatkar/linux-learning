@@ -1,8 +1,8 @@
-# Kali Linux Learning Log
+# Linux Learning Log
 
-Learning Kali Linux from scratch, no prior background in cybersecurity or networking. This repo is where I track my journey, whenever I get time to sit down and log it.
+Learning Linux from scratch, no prior background in cybersecurity or networking. This repo is where I track my journey, whenever I get time to sit down and log it.
 
-Goal: get comfortable with Linux, then move into ethical hacking properly.
+Goal: get solid on Linux fundamentals first, then move into Kali Linux and ethical hacking.
 
 ## What's here
 
@@ -17,4 +17,4 @@ Documenting this publicly instead of keeping it in a notes app. Forces me to act
 
 ## Structure
 
-Each log gets its own file, dated whenever I post it. No fixed schedule.
+Each log gets its own file, named by topic, whenever I post it. No fixed schedule.
