@@ -6,26 +6,22 @@
 
 So instead of writing the full path:
 
-```bash
-/home/kali/Documents
-```
+    /home/kali/Documents
 
 I can just write:
 
-```bash
-~/Documents
-```
+    ~/Documents
 
 ## How I Verified This
 
 Tested it using `cd`:
 
-```bash
-cd /home/kali/Documents
-cd ~/Documents
-```
+    cd /home/kali/Documents
+    cd ~/Documents
 
 Both commands took me to the same place — confirms `~` = my home directory path.
+
+![Understanding tilde shortcut](images/understanding-tilde-shortcut/Understanding-Tilde.png)
 
 ## Why This Matters (My Own Example)
 
@@ -33,17 +29,13 @@ Thought of a practical case to make sense of this:
 
 Say I run a company with a Linux system that has multiple users — A, B, C, D. If I want to tell all of them to go to their own documents folder, without `~` I'd have to give each person a different, personalized instruction:
 
-```bash
-/home/a/documents/folder
-/home/b/documents/folder
-/home/c/documents/folder
-```
+    /home/a/documents/folder
+    /home/b/documents/folder
+    /home/c/documents/folder
 
 Instead, I can just tell all of them the same thing:
 
-```bash
-~/documents/folder
-```
+    ~/documents/folder
 
 Even though they're different users, this single path works for everyone because `~` automatically maps to *their own* home directory.
 
@@ -54,12 +46,10 @@ I'm assuming that when a user logs in, `~` resolves to their specific home direc
 ## Confidence Check
 
 **Solid on:**
-
 - What `~` represents and how it saves time
 - Verified using `cd` that `~/Documents` and the full path lead to the same place
 
 **Shaky on:**
-
 - Whether `~` is technically tied to UID, or resolved some other way — need to confirm this later
 
 ## Next
