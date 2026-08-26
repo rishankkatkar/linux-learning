@@ -7,6 +7,7 @@
 ![pwd command output](images/pwd-id-commands/pwd.png)
 
 Related to this, there are two variants tied to symbolic links:
+
 - `pwd -L` → prints the **logical** path
 - `pwd -P` → prints the **physical** path
 
@@ -14,11 +15,11 @@ Related to this, there are two variants tied to symbolic links:
 
 Used a symbolic link only as a way to test the difference between `pwd`, `pwd -L`, and `pwd -P`. Symlinks themselves weren't the thing being studied here.
 
-I was at: `~/home/kali/Documents/newfolder`
+I was at: `~/Documents/newfolder`
 
 Created a symbolic link using:
 
-    ln -s ~/Downloads ~/home/kali/Documents/newfolder/symboliclinkshortcut
+    ln -s ~/Downloads ~/Documents/newfolder/symboliclinkshortcut
 
 Here, `~/Downloads` is the target the link points to, and `symboliclinkshortcut` is the shortcut itself, sitting inside `newfolder`.
 
