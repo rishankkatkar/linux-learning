@@ -18,3 +18,4 @@ Documenting this publicly instead of keeping it in a notes app. Forces me to act
 ## Structure
 
 Each log gets its own file, named by topic, whenever I post it. No fixed schedule.
+See [INDEX.md](INDEX.md) for the full list of logs.
