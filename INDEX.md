@@ -13,6 +13,9 @@ What the `~` shortcut actually represents and why it's useful across multi-user 
 ### 03. [mkdir Flags (-p, -v, -m)](mkdir-p-v-m-flags-and-naming-mistakes.md)
 Creating directories, common naming mistakes, and a deep dive into permission math with `-m`.
 
+### 04. [Absolute Path vs Relative Path](absolute-vs-relative-paths.md)
+Comparing absolute and relative paths, navigating with `..`, the root-counting mistake, and why `~` strikes a balance between portability and reliability.
+
 ---
 
 *More logs added as I go. No fixed schedule.*
